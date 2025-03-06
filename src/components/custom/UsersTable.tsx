@@ -8,6 +8,7 @@ import {
 } from "../ui/table";
 import { User } from "@/types";
 
+
 interface UsersTableProps {
 	users: Array<User>;
 }
