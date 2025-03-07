@@ -11,7 +11,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setUsers(data);
-        setOriginalUsers(data); // Сохраняем оригинальный список
+        setOriginalUsers(data);
       });
   }, []);
 

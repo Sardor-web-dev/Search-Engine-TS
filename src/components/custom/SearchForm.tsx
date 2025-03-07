@@ -26,7 +26,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ users, setUsers }) => {
 //     setUsers(filtered);
 //   }, [search]);
 
-const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+const searchUser = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setSearch(value);
 
@@ -52,7 +52,7 @@ const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
             placeholder="seach"
             name="search"
 			value={search}
-            onChange={handleSearch}
+            onChange={searchUser}
           />
           <Button variant="outline">search</Button>
         </form>
