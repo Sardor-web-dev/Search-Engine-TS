@@ -51,7 +51,7 @@ const searchUser = (e: React.ChangeEvent<HTMLInputElement>) => {
           <Input
             placeholder="seach"
             name="search"
-			value={search}
+			      value={search}
             onChange={searchUser}
           />
           <Button variant="outline">search</Button>

@@ -17,8 +17,8 @@ function App() {
 
   return (
     <center>
-      <SearchForm users={originalUsers} setUsers={setUsers} />
-      <UsersTable users={users} />
+      <SearchForm users ={originalUsers} setUsers={setUsers} />
+      <UsersTable users = {users} />
     </center>
   );
 }
